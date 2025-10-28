@@ -8,7 +8,11 @@ IF %First_File% == NUL SET /P First_File=Choose first file:
 IF %Second_File% == NUL SET /P Second_File=Choose second file: 
 IF %Timeout_Time% == NUL SET /P Timeout_Time=Choose timeout time in seconds: 
 IF NOT EXIST %Target_File% BREAK > %Target_File% 
+CLS
 ECHO Include: %Target_File% to Equalizer APO
+ECHO First file: %First_File%
+ECHO Second file: %Second_File%
+ECHO Timeout: %Timeout_Time% seconds
 Pause
 :Repeat
 COPY /Y %First_File% %Target_File% > NUL
