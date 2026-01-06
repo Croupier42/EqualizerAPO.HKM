@@ -1,4 +1,4 @@
-# EqualizerAPO.ahk
+# EqualizerAPO.HKM
 Скрипт для [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)\
 Создан на [AutoHotkey v1.1.37.02](https://www.autohotkey.com/)\
 Спасибо за идею и иконку [Brad331](https://github.com/Brad331/APOpreamp.ahk/)\
